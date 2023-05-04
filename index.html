@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+    <title>Portafolio de Máximo Sanabria</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Device-width, initial -scale=1.0">
+    <meta name="description" content="Descripción de mi página">
+    <meta name="keywords" content="palabra clave 1, palabra clave 2, ...">
+      <!-- Enlazar la fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    
+    <!-- Enlazar la hoja de estilos de Font Awesome para utilizar los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- comment -->
+
+    <style>
+        
+      /* Estilos para el formato de consola */
+      body {
+        background-color: #000;
+        color: #ccc;
+        font-family: 'Orbitron', sans-serif;
+        margin: 0;
+        padding: 10px;
+      }
+      /* Estilos para los círculos */
+      .circle {
+        border-radius: 5%;
+        display: inline-block;
+        height: 25px;
+        margin-right: 5px;
+        width: 25px;
+      }
+      .filled {
+        background-color: #f00;
+      }
+      .empty {
+        background-color: #ccc;
+        border: 1px solid #ccc;
+      }
+      
+        /* Estilos para posicionar los botones al final de la pantalla */
+      .social-buttons {
+        bottom: 20px;
+        position: fixed;
+        right: 20px;
+      }
+      /* Estilos para dar una separación cómoda visualmente a los botones */
+      .social-buttons a {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      
+      /* section imagenes movimientos */
+      
+    section{
+        display: flex;
+        width: 2400px;
+        height: 600px;
+
+}
+    section img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity:.8;
+        transition: .5s ease;
+
+}
+    section img:hover {
+    
+    cursor: crosshair;
+    width: 900px;
+    opacity: 1;
+    filter: contrast(20);
+
+
+}
+      
+      
+      
+      
+      
+    </style>
+  </head>
+  
+  <body class="robot">
+    <div class="container">
+      <h1>Portafolio de Máximo Sanabria</h1>
+      <div class="skills"></div>
+    </div>
+    
+      <div>
+          <h3>Un Poco Sobre Mi...</h3>
+            <h5>
+                <a>Me llamo maximo me dicen "Cuti" tengo 34 años, estoy estudiando programacion ya finalizando mi carrera.
+               <br> 
+                  con ganas de seguir aprendiendo y con ganas de desarrollarme tanto laboral como profesionalmente,
+               <br> 
+                  hoy en dia buscando una empresa para realizar mis practicas y seguir siempre adquieriendo conocimientos y habilidades.
+               <br>  
+                  ¿PORQUE ASI LA PAGINA? Queria darle un estilo consola antigua cmd que era verde fluor</a>
+            </h5>
+          
+      </div>
+      
+    <!-- Título de la sección de habilidades -->
+      <div>
+        <h1>Mis habilidades</h1>
+      </div>
+    
+      <section>
+                <img src="C:\Users\acer\Documents\++MAXIMO\Programacion\imagenes\img\CT.png" alt="C++"/>
+                <img src="C:\Users\acer\Documents\++MAXIMO\Programacion\imagenes\img\port.png" alt="HTML"/>
+                <img src="C:\Users\acer\Documents\++MAXIMO\Programacion\imagenes\img\csspag.png" alt="CSS"/>
+                <img src="C:\Users\acer\Documents\++MAXIMO\Programacion\imagenes\img\pgadmin.png" alt="POSTGRESS"/>
+
+      </section>
+    
+    
+    <div class="Mis habilidades">
+      <ul>
+        
+          <li>
+              C++ basico
+               <div>
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle filled"></span>
+                    <span class="circle empty"></span>
+                    <span class="circle empty"></span>
+               </div>
+              <pre>
+            &ltcout - cin - if - else - for &gt; conceptos basico &lt;/h1&gt
+            algunos conceptos basicos usados en la carrera para crear algunos trabajos
+            <br>
+            como calculadora trigonometrica, el ejemplo de la primer imagen
+           </pre>
+          </li>
+          
+          <li>HTML básico
+          
+              <div>
+            
+                  <span class="circle filled"></span>
+                  <span class="circle filled"></span>
+                  <span class="circle filled"></span>
+                  <span class="circle empty"></span>
+                  <span class="circle empty"></span>
+          </div>
+              
+          <pre>
+                    &lt;h1&gt;Seguimos Aprendiendo&lt;/h1&gt
+                    segunda imagen ejemplo de html
+          </pre>
+           
+        </li>
+        
+        <li>CSS básico
+          
+            <div>
+            <span class="circle filled"></span>
+            <span class="circle filled"></span>
+            <span class="circle filled"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+          </div>
+            
+          <pre>
+            /* Estilos para el formato de consola */
+            body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 10px;
+            }
+          </pre>
+        </li>
+        
+        <li>JavaScript básico
+          <div>
+            <span class="circle filled"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+          </div>
+            
+            <pre>
+                
+                Teoria sobre js Curso fundacion telefonica
+              <body>
+              <!-- Botón que muestra una alerta al hacer clic en él -->
+              <button onclick="alert('Aprendiendo sobre un alerta y boton =)')">Mostrar alerta</button>
+              <!-- Código JavaScript para mostrar una alerta al cargar la página -->
+              <script>
+                    alert('La página ha cargado');
+              </script>
+              </body>
+
+            </pre>
+            
+            <pre>
+                
+            Botón que muestra una alerta al hacer clic en él 
+            button onclick="alert('Hola mundo')"> Mostrar alerta /button
+
+            Código JavaScript para mostrar una alerta al cargar la página
+            script
+            alert('La página ha cargado');
+            /script
+            </pre>
+    
+        </li>
+        
+        <li>Posgress básico
+          <div>
+            <span class="circle filled"></span>
+            <span class="circle filled"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+            <span class="circle empty"></span>
+          </div>
+            
+            <pre>
+            -- Recuperar todos los datos de la tabla "clientes"
+            SELECT * FROM clientes;
+            </pre> 
+        </li> 
+      </ul> 
+    </div>
+    <br><!-- -->
+    <br><!-- comment -->
+    <br><!-- comment -->
+    <br><!-- comment -->
+    <br><!-- comment --> 
+    
+    <!-- Botón con icono y enlace a WhatsApp -->
+    <a href="https://wa.me/+542214353415" target="_blank">
+      <i class="fa fa-whatsapp"></i> Mi WhatsApp
+    </a>
+
+    <!-- Botón con icono y enlace a LinkedIn -->
+    <a href="https://www.linkedin.com/in/maximo-sanabria-858970b6/ target=_blank">
+      <i class="fa fa-linkedin"></i> Mi Pagina LinkedIn
+    </a>
+
+    <!-- Botón con icono y enlace a Gmail -->
+    <a href="mailto:mpsanabriia@gmail.com" target="_blank">
+      <i class="fa fa-envelope"></i> Mi Pagina Gmail
+    </a>
+    
+    <a href="https://github.com/cuutii">
+       <i class="fab fa-github"></i> Mi Pagina GitHub
+    </a>
+  </body> 
+</html>  
+
+
+<!-- 
+
+
+GALERIA DE IMAGENES 
+
+<<section>
+<img src="src" alt="alt"/>
+<img src="src" alt="alt"/>
+<img src="src" alt="alt"/>
+</section>
+
+
+css
+    section{
+        display: flex;
+        width: 600px;
+        height: 430px;
+
+}
+    section img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity:.8;
+        transition: .5s ease;
+
+}
+    section img:hover {
+    
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120);
+
+
+}
+
+
+
+-->
