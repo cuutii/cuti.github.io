@@ -5,6 +5,9 @@
 
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
     <meta name="viewport" content="width=Device-width, initial -scale=1.0">
     <meta name="description" content="Descripción de mi página">
     <meta name="keywords" content="palabra clave 1, palabra clave 2, ...">
@@ -133,6 +136,34 @@ header h1 {
 
   </head>
   <body>
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+    
 
     <header>
       <h1>Guía Turística</h1>
