@@ -1,0 +1,96 @@
+/* Reset de estilos para asegurar consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo para la imagen del portafolio */
+.imagen-portafolio {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.imagen-portafolio img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+
+
+/* Estilos para el encabezado (header) */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8rem;
+}
+
+/* Estilos para los enlaces de redes sociales */
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
