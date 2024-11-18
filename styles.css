@@ -7,9 +7,9 @@
 
 /* Estilos generales del cuerpo del documento */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1a1a1a; /* Fondo oscuro */
-    color: #ffffff; /* Texto blanco */
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para un estilo hacker */
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #00ff00; /* Texto verde neón */
     line-height: 1.6;
     padding: 20px;
 }
@@ -23,25 +23,28 @@ body {
 .imagen-portafolio img {
     max-width: 100%;
     height: auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+    box-shadow: 0 0 10px #00ff00; /* Sombra verde neón */
+    border: 2px solid #00ff00; /* Borde verde neón */
 }
-
-
 
 /* Estilos para el encabezado (header) */
 header {
     text-align: center;
     padding: 20px 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    border-bottom: 2px solid #00ff00; /* Línea inferior verde neón */
 }
 
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #00ff00; /* Texto verde neón */
 }
 
 /* Estilos para la barra de navegación */
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -51,8 +54,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #00ff00; /* Enlaces en verde neón */
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
 }
 
 /* Estilos para las secciones */
@@ -63,6 +70,7 @@ section {
 section h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    color: #00ff00; /* Texto verde neón */
 }
 
 /* Estilos para las imágenes */
@@ -78,11 +86,18 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 0.8rem;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    border-top: 2px solid #00ff00; /* Línea superior verde neón */
+    color: #00ff00; /* Texto verde neón */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Estilos para los enlaces de redes sociales */
 footer ul {
     list-style: none;
+    padding: 0;
 }
 
 footer ul li {
@@ -92,5 +107,10 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #00ff00; /* Enlaces en verde neón */
 }
+
+footer ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
