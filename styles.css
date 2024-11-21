@@ -67,6 +67,12 @@ section img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
+/* Estilos para el iframe de la cotización del dólar */
+iframe {
+    border: none;
+    margin-top: 10px;
+}
+
 /* Estilos para el formulario de contacto */
 form {
     background-color: #fff; /* Fondo blanco */
@@ -106,29 +112,4 @@ form button:hover {
 
 /* Estilos para el pie de página (footer) */
 footer {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.8rem;
-    background-color: #0056b3; /* Fondo azul oscuro */
-    color: #fff; /* Texto blanco */
-    border-top: 2px solid #ffd700; /* Línea superior dorada */
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #ffd700; /* Enlaces dorados */
-}
-
-footer ul li a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón */
-}
+    text-align: center
