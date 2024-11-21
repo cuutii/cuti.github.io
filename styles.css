@@ -7,41 +7,27 @@
 
 /* Estilos generales del cuerpo del documento */
 body {
-    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para un estilo hacker */
-    background-color: #0d0d0d; /* Fondo oscuro */
-    color: #00ff00; /* Texto verde neón */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    color: #333; /* Texto oscuro */
     line-height: 1.6;
     padding: 20px;
-}
-
-/* Estilo para la imagen del portafolio */
-.imagen-portafolio {
-    text-align: center; /* Centra la imagen horizontalmente */
-    margin-top: 20px; /* Espacio superior */
-}
-
-.imagen-portafolio img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 0 10px #00ff00; /* Sombra verde neón */
-    border: 2px solid #00ff00; /* Borde verde neón */
 }
 
 /* Estilos para el encabezado (header) */
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #1a1a1a; /* Fondo oscuro */
-    border-bottom: 2px solid #00ff00; /* Línea inferior verde neón */
+    background-color: #0056b3; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    border-bottom: 2px solid #ffd700; /* Línea inferior dorada */
 }
 
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #00ff00; /* Texto verde neón */
 }
 
-/* Estilos para la barra de navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -54,7 +40,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #00ff00; /* Enlaces en verde neón */
+    color: #ffd700; /* Enlaces dorados */
     font-weight: bold;
 }
 
@@ -70,15 +56,52 @@ section {
 section h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #00ff00; /* Texto verde neón */
+    color: #0056b3; /* Azul oscuro */
 }
 
-/* Estilos para las imágenes */
-img {
+section img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border: 2px solid #0056b3; /* Borde azul oscuro */
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0056b3; /* Texto azul oscuro */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0056b3; /* Borde azul oscuro */
+    border-radius: 3px;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    color: #333; /* Texto oscuro */
+}
+
+form button {
+    background-color: #0056b3; /* Fondo azul oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003d80; /* Fondo azul más oscuro al pasar el ratón */
 }
 
 /* Estilos para el pie de página (footer) */
@@ -86,15 +109,11 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 0.8rem;
-    background-color: #1a1a1a; /* Fondo oscuro */
-    border-top: 2px solid #00ff00; /* Línea superior verde neón */
-    color: #00ff00; /* Texto verde neón */
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #0056b3; /* Fondo azul oscuro */
+    color: #fff; /* Texto blanco */
+    border-top: 2px solid #ffd700; /* Línea superior dorada */
 }
 
-/* Estilos para los enlaces de redes sociales */
 footer ul {
     list-style: none;
     padding: 0;
@@ -107,7 +126,7 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: #00ff00; /* Enlaces en verde neón */
+    color: #ffd700; /* Enlaces dorados */
 }
 
 footer ul li a:hover {
