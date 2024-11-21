@@ -1,79 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Declaración del tipo de documento HTML5 -->
-    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres a UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para que sea responsive -->
-    <title>Mi Portafolio</title> <!-- Título de la página que aparece en la pestaña del navegador -->
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Calafate - Tierra de Glaciares</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Maximo Sanabria</h1> <!-- Título principal de la página -->
+        <h1>El Calafate - Tierra de Glaciares</h1>
         <nav>
-            <!-- Navegación principal del sitio -->
             <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li> <!-- Enlace a la sección "Sobre mí" -->
-                <li><a href="#proyectos">Proyectos</a></li> <!-- Enlace a la sección "Proyectos" -->
-                <li><a href="#contacto">Contacto</a></li> <!-- Enlace a la sección "Contacto" -->
+                <li><a href="#sobre">Sobre El Calafate</a></li>
+                <li><a href="#atracciones">Atracciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Sección de imagen con efecto de sombra --
-    <section id="imagen">
-        <h2>Mi Imagen</h2> <!-- Subtítulo de la sección de imagen --
-        <div class="imagen-con-sombra">
-            <img src="ruta/a/tu/imagen.jpg" alt="Mi imagen"> <!-- Imagen con ruta y texto alternativo --
-        </div>
+    <section id="sobre">
+        <h2>Sobre El Calafate</h2>
+        <p>El Calafate es una ciudad en la Patagonia argentina, conocida por ser la puerta de entrada al Parque Nacional Los Glaciares.</p>
+        <img src="https://example.com/imagen-calafate.jpg" alt="El Calafate">
     </section>
-    -->
-    
-    <!-- Segunda navegación para enlaces externos -->
-    <nav>
+
+    <section id="atracciones">
+        <h2>Atracciones Principales</h2>
         <ul>
-            <li><a href="https://referral.hackthebox.com/mzxDvNv">HTB</a></li> <!-- Enlace a Hack The Box -->
-            <li><a href="https://tryhackme.com/p/cuti">TryHackMe</a></li> <!-- Enlace a TryHackMe -->
+            <li>Glaciar Perito Moreno</li>
+            <li>Parque Nacional Los Glaciares</li>
+            <li>Lago Argentino</li>
         </ul>
-    </nav>
-
-    <!-- Sección "Sobre mí" -->
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2> <!-- Subtítulo de la sección -->
-        <p>¡Hola! Soy Maximo, un apasionado por la programación y el diseño, así como también la ciberseguridad. 
-        <br>
-        Aquí puedes conocer más sobre mí y mis habilidades.</p> <!-- Descripción personal -->
+        <img src="https://example.com/imagen-glaciar.jpg" alt="Glaciar Perito Moreno">
     </section>
 
-    <!-- Sección "Proyectos" -->
-    <section id="proyectos">
-        <h2>Proyectos</h2> <!-- Subtítulo de la sección -->
-        <ul>
-            <li><a href="proyecto1.html">UX/UI Designer and Developer</a></li> <!-- Enlace al proyecto 1 -->
-          <a href  
-            <li><a href="proyecto2.html">Analista de Ciberseguridad</a></li> <!-- Enlace al proyecto 2 -->
-        </ul>
-    </section>
-
-    <!-- Sección "Contacto" -->
     <section id="contacto">
-        <h2>Contacto</h2> <!-- Subtítulo de la sección -->
-        <p>Puedes contactarme a través de mis redes sociales o enviándome un correo electrónico.</p> <!-- Descripción de contacto -->
-        <p>Envíame un correo a <a href="mailto:mpsanabriia@gmail.com">@gmail.com</a></p>
-  
+        <h2>Contacto</h2>
+        <form action="send_email.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
-
-    <!-- Sección "Contacto" --> <section id="contacto"> <h2>Contacto</h2> <form action="send_email.php" method="post"> <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" required> <label for="email">Email:</label> <input type="email" id="email" name="email" required> <label for="mensaje">Mensaje:</label> <textarea id="mensaje" name="mensaje" rows="4" required></textarea> <button type="submit">Enviar</button> </form> </section>
-
-
-    <!-- Pie de página -->
     <footer>
         <ul>
-            <li><a href="https://www.linkedin.com/in/maximo-sanabria-858970b6/">LinkedIn</a></li> <!-- Enlace a LinkedIn -->
-            <li><a href="https://github.com/cuutii">GitHub</a></li> <!-- Enlace a GitHub -->
+            <li><a href="https://www.linkedin.com/in/maximo-sanabria-858970b6/">LinkedIn</a></li>
+            <li><a href="https://github.com/cuutii">GitHub</a></li>
         </ul>
-        <p>© 2024 [C]uti. Todos los derechos reservados.</p> <!-- Derechos de autor -->
+        <p>© 2024 El Calafate. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
